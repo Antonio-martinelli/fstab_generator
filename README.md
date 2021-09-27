@@ -22,10 +22,12 @@ NOTE: the commands in `requirements.txt` will be launched only if the script is 
 
 # Usage
 
-Import the files `input.yaml` and `fstab_generator.py` in a directory accessible by the sudoer user, and launch it with the command:
+Import the files `input.yaml`, `fstab_generator.py` and `fstab_entry.py` in a directory accessible by the sudoer user, and launch it with the command:
 
-`python fstab_generator.py` to append to `/etc/fstab` and review the commands in `requirements.txt` before executing them,
+- `python fstab_generator.py`
+ to append to `/etc/fstab` and review the commands in `requirements.txt` before executing them,
 
 or
 
-`python fstab_generator.py install-requirements` to append to `/etc/fstab` and execute the required cli commands to have the file system configured according to the input file.
+- `python fstab_generator.py install-requirements` 
+to append to `/etc/fstab` and execute the required cli commands to have the file system configured according to the input file.

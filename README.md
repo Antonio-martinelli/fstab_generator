@@ -11,7 +11,7 @@ Assuming we have:
 the utility takes care of: 
 
 - appending the content of the input to `/etc/fstab` ,
-- creating (if not present) the mount point directories and adjusting their permissions (#TODO check),
+- creating (if not present) the mount point directories and adjusting their permissions,
 - installing `nfs-common` as requirement for mounting `xfs` disks,
 - mounting the new devices (this requires no collision or redundance with previously mounted devices),
 - reserving percentages of disk space for mountpoints required with `root-reserve` option using `tune2fs` command as not specifiable in `fstab` file.

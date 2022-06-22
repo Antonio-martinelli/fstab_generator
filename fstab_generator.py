@@ -15,7 +15,7 @@ import yaml
 from fstab_entry import FstabEntry
 
 INPUT_FILENAME = 'input.yaml'
-OUTPUT_FILENAME = '/etc/fstab'
+OUTPUT_FILENAME = 'fstab'
 REQUIREMENTS_FILENAME = 'requirements.txt'
 
 MOUNT_KEY = 'mount'
